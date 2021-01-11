@@ -9,7 +9,7 @@ public class Casilla {
             {1.8, 1, 1.2, 1},
             {1.8, 1.3, 1.2, 0.8},
             {1.5, 1.1, 1.1, 1.1}};
-    private int cantidad[][]=new int[4][4];
+    private int cantidad[][]=new  int[4][4];
 
     public Casilla(){
         for (int i = 0; i < cantidad.length; i++) {

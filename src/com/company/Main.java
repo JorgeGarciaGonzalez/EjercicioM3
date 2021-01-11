@@ -36,9 +36,8 @@ public class Main {
                         rellenarGolosina(casilla);
                         break;
                     case 4:
-                        System.out.println("El total recaudado por la maquina es: "+ventas+" €");
+                        apagarMaquina(ventas);
                         salir=true;
-                        break;
                 }
             }
         }while (!salir);
@@ -97,5 +96,8 @@ public class Main {
                 System.out.println("Dato no correcto");
             }
         }else System.out.println("Contraseña incorrecta");
+    }
+    public static void apagarMaquina(float ventas){
+        System.out.println("El total recaudado por la maquina es: "+ventas+" €");
     }
 }
